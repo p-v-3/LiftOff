@@ -9,7 +9,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            Email address:  <input type="text" name="Email" value="" />
+            Email address:  <input type="text" name="Email" value="" /><br />
+            <a href="#" onclick="submit()">SUBMIT</a>
+
         </div>
     </form>
 </body>

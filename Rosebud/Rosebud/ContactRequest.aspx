@@ -10,7 +10,7 @@
     <form id="form1" runat="server">
         <div>
             Email address:  <input type="text" name="Email" value="" /><br />
-            <a href="#" onclick="submit()">SUBMIT</a>
+            <asp:button id="Submit" runat="server" OnClick="SubmitClick" Text="Click Here"></asp:button>
 
         </div>
     </form>

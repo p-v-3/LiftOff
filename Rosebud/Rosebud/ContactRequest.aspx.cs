@@ -9,9 +9,12 @@ namespace Rosebud
 {
     public partial class ContactRequest : System.Web.UI.Page
     {
-        protected void Page_Load(object sender, EventArgs e)
+        protected void SubmitClick(object sender, EventArgs e)
         {
-
+            Response.Write("Bingo!");
         }
+
     }
+
 }
+
